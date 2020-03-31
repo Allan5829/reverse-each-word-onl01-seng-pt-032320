@@ -4,6 +4,5 @@ def reverse_each_word (string)
   string.collect do |word|
     new_string << word.reverse
   end
-  string = new_string
-  string.join (" ")
+  new_string.join (" ")
 end
