@@ -6,5 +6,5 @@ def reverse_each_word (string)
   end
   string = new_string
   string.join (" ")
-  puts string
+  return string
 end
